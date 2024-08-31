@@ -13,6 +13,9 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@jsplumb/browser-ui": "^6.2.10",
+    "@vue-flow/core": "^1.40.1",
+    "ant-design-vue": "4.0.0-rc.6",
     "pinia": "^2.1.7",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
