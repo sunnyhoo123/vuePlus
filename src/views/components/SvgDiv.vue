@@ -1,29 +1,29 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from '../../src/components/HelloWorld.vue'
-import { nextTick, onMounted } from 'vue'
+import { RouterLink, RouterView } from 'vue-router';
+import HelloWorld from '../../src/components/HelloWorld.vue';
+import { nextTick, onMounted } from 'vue';
 
 onMounted(() => {
-  nextTick()
-  const div1 = document.getElementById('div1')
-  const div2 = document.getElementById('div2')
-  const line = document.getElementById('line')
+  nextTick();
+  const div1 = document.getElementById('div1');
+  const div2 = document.getElementById('div2');
+  const line = document.getElementById('line');
 
   // 获取 div 的中心点
-  const rect1 = div1.getBoundingClientRect()
-  const rect2 = div2.getBoundingClientRect()
+  const rect1 = div1.getBoundingClientRect();
+  const rect2 = div2.getBoundingClientRect();
 
-  const x1 = rect1.left + rect1.width / 2
-  const y1 = rect1.top + rect1.height / 2
-  const x2 = rect2.left + rect2.width / 2
-  const y2 = rect2.top + rect2.height / 2
+  const x1 = rect1.left + rect1.width / 2;
+  const y1 = rect1.top + rect1.height / 2;
+  const x2 = rect2.left + rect2.width / 2;
+  const y2 = rect2.top + rect2.height / 2;
 
   // 设置线的起点和终点
-  line.setAttribute('x1', x1)
-  line.setAttribute('y1', y1)
-  line.setAttribute('x2', x2)
-  line.setAttribute('y2', y2)
-})
+  line.setAttribute('x1', x1);
+  line.setAttribute('y1', y1);
+  line.setAttribute('x2', x2);
+  line.setAttribute('y2', y2);
+});
 </script>
 
 <template>
