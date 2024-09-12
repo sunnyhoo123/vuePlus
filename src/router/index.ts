@@ -49,6 +49,14 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../pages/vuePlay/index.vue'),
     },
+    {
+      path: '/childAndSon',
+      name: 'childAndSon',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../pages/childAndSon/index.vue'),
+    },
   ],
 });
 

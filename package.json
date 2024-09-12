@@ -2,7 +2,6 @@
   "name": "vue-plus",
   "version": "0.0.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
@@ -13,6 +12,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
     "@dagrejs/dagre": "^1.1.4",
     "@jsplumb/browser-ui": "^6.2.10",
     "@vue-flow/background": "^1.3.0",

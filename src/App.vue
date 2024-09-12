@@ -18,6 +18,7 @@ import { RouterLink, RouterView } from 'vue-router';
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/lineDiv">lineDiv</RouterLink>
         <RouterLink to="/vuePlay">vueplay</RouterLink>
+        <RouterLink to="/childAndSon">childAndSon</RouterLink>
         <!-- <RouterLink to="/vueUse">vueUse</RouterLink> -->
       </nav>
     </div>
